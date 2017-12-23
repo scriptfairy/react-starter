@@ -2,6 +2,8 @@
 
 import * as React from 'react';
 
+import Panel from 'app/components/panel';
+
 type Props = {};
 
 type State = {
@@ -18,7 +20,7 @@ class HelloPage extends React.Component<Props, State> {
 
   render() {
     const { greeting } = this.state;
-    return <div>{greeting}</div>;
+    return <Panel>{greeting}</Panel>;
   }
 }
 
