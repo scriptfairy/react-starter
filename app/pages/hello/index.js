@@ -14,7 +14,7 @@ class HelloPage extends React.Component<Props, State> {
   constructor() {
     super();
     this.state = {
-      greeting: 'hello',
+      greeting: 'hello world',
     };
   }
 
