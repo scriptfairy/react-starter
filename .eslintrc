@@ -1,16 +1,25 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "airbnb",
-    "plugin:prettier/recommended"
+    "standard",
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended",
+    "plugin:unicorn/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react",
+    "prettier/standard",
+    "prettier/unicorn"
   ],
+  "plugins": ["flowtype", "react", "prettier", "standard", "unicorn"],
   "env": {
     "browser": true
   },
   "settings": {
+    "react": { "version": "latest" },
     "import/resolver": "webpack"
   },
   "rules": {
     "react/jsx-filename-extension": "off"
-  },
+  }
 }

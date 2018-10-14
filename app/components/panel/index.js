@@ -6,4 +6,6 @@ type Props = {
   children: React.Node,
 };
 
-export default ({ children }: Props) => <div>{children}</div>;
+const Panel = ({ children }: Props) => <div>{children}</div>;
+
+export default Panel;
